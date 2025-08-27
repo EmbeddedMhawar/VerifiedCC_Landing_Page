@@ -1,14 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Background circle -->
-  <circle cx="50" cy="50" r="45" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Orange checkmark part -->
+  <path d="M15 50 L35 70 L40 65 L25 50 Z" fill="#FDB813"/>
   
-  <!-- Left side of checkmark -->
-  <path d="M25 50 L40 65" stroke="#FDB813" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Green leaf -->
+  <path d="M45 20 Q70 15 80 35 Q75 55 70 65 Q65 70 60 67 Q55 63 53 55 Q51 45 50 35 Q49 25 45 20 Z" fill="#4ade80"/>
+  <path d="M45 20 Q70 15 80 35 Q75 55 70 65 Q65 70 60 67 Q55 63 53 55 Q51 45 50 35 Q49 25 45 20 Z" fill="#22c55e" opacity="0.7"/>
   
-  <!-- Right side of checkmark -->
-  <path d="M40 65 L75 30" stroke="#2E8540" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Leaf veins -->
+  <path d="M52 28 Q62 35 68 50" stroke="#16a34a" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M54 35 Q60 40 65 50" stroke="#16a34a" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M56 42 Q60 45 63 52" stroke="#16a34a" stroke-width="1" fill="none" opacity="0.5"/>
   
-  <!-- Subtle shadow/depth -->
-  <path d="M27 52 L42 67" stroke="#FDB813" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.3"/>
-  <path d="M42 67 L77 32" stroke="#2E8540" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.3"/>
+  <!-- Leaf stem -->
+  <path d="M53 55 Q51 62 50 70" stroke="#16a34a" stroke-width="3" fill="none"/>
 </svg>
