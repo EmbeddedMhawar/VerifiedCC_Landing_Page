@@ -79,16 +79,19 @@ npx serve .
 #### Manual Vercel Deployment:
 
 1. **Install Vercel CLI:**
+
 ```bash
 npm i -g vercel
 ```
 
 2. **Deploy from your project directory:**
+
 ```bash
 vercel
 ```
 
 3. **Follow the prompts:**
+
    - Set up and deploy? **Y**
    - Which scope? Select your account
    - Link to existing project? **N**
